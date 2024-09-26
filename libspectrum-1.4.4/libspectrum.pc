@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libspectrum
+Description: libspectrum is a library which is designed to make the input and output of ZX Spectrum emulator files slightly easier than it would be otherwise.
+URL: http://fuse-emulator.sourceforge.net/libspectrum.php
+Version: 1.4.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -lspectrum
