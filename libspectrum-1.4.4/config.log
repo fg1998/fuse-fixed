@@ -464,7 +464,7 @@ configure: failed program was:
 configure:12214: result: no
 configure:12236: checking for _snprintf
 configure:12236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccMNGiPB.o: in function `main':
+/usr/bin/ld: /tmp/cc9UuYwL.o: in function `main':
 /home/fg1998/fuse-fixed-old/libspectrum-1.4.4/conftest.c:63: undefined reference to `_snprintf'
 collect2: error: ld returned 1 exit status
 configure:12236: $? = 1
@@ -538,7 +538,7 @@ configure: failed program was:
 configure:12236: result: no
 configure:12236: checking for _stricmp
 configure:12236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cc6Lq6mw.o: in function `main':
+/usr/bin/ld: /tmp/ccKs3eli.o: in function `main':
 /home/fg1998/fuse-fixed-old/libspectrum-1.4.4/conftest.c:63: undefined reference to `_stricmp'
 collect2: error: ld returned 1 exit status
 configure:12236: $? = 1
@@ -612,7 +612,7 @@ configure: failed program was:
 configure:12236: result: no
 configure:12236: checking for _strnicmp
 configure:12236: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccS2sHWf.o: in function `main':
+/usr/bin/ld: /tmp/cchM902q.o: in function `main':
 /home/fg1998/fuse-fixed-old/libspectrum-1.4.4/conftest.c:63: undefined reference to `_strnicmp'
 collect2: error: ld returned 1 exit status
 configure:12236: $? = 1
@@ -722,7 +722,7 @@ configure:12273: checking for zlib.h
 configure:12273: result: yes
 configure:12278: checking for library containing compress2
 configure:12309: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccdpdhUC.o: in function `main':
+/usr/bin/ld: /tmp/ccjYnZay.o: in function `main':
 /home/fg1998/fuse-fixed-old/libspectrum-1.4.4/conftest.c:44: undefined reference to `compress2'
 collect2: error: ld returned 1 exit status
 configure:12309: $? = 1
