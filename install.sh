@@ -10,6 +10,7 @@ echo "**************************************************"
 echo "              compiling libspectrum"
 echo "**************************************************"
 cd "$current_dir/libspectrum-1.4.4" 
+autoreconf -f -i  
 ./configure --disable-shared
 make clean
 make
