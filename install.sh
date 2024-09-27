@@ -21,6 +21,7 @@ echo "**************************************************"
 
 echo "Configuring Fuse" 
 cd "$current_dir/fuse-1.5.8" 
+autoreconf -f -i  
 
 ./configure --prefix="$current_dir/fuse-bin" --without-libao --without-gpm --without-gtk --without-libxml2 --with-sdl LIBSPECTRUM_CFLAGS="-I$current_dir/libspectrum-1.4.4" LIBSPECTRUM_LIBS="-L$current_dir/libspectrum-1.4.4/.libs -lspectrum"
 make clean
