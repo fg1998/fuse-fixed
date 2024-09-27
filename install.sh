@@ -27,3 +27,7 @@ autoreconf -f -i
 make clean
 make
 make install
+
+cp "$current_dir/tk90x.rom"  "$current_dir/fuse-bin/share/fuse/" 
+cp "$current_dir/tk90x.sh"  "$current_dir/fuse-bin/"
+cp "$current_dir/fuse.sh"  "$current_dir/fuse-bin"  
